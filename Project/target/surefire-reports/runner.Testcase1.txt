@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runner.Testcase1
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 45.205 s <<< FAILURE! - in runner.Testcase1
+productSearch(runner.Testcase1)  Time elapsed: 4.633 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at runner.Testcase1.productSearch(Testcase1.java:53)
+
+multipleSearchTest(runner.Testcase1)  Time elapsed: 3.623 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at runner.Testcase1.multipleSearchTest(Testcase1.java:83)
+

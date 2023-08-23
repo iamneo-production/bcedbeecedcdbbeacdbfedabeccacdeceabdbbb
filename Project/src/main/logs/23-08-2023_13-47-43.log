@@ -1,0 +1,6 @@
+Aug 23, 2023 1:47:46 PM runner.Base openBrowser
+INFO: Browser Launched
+Aug 23, 2023 1:47:50 PM runner.Base openBrowser
+INFO: Browser Loaded the URL
+Aug 23, 2023 1:47:52 PM runner.Testcase1 productSearch
+INFO: Browser Navigated to the Register Page

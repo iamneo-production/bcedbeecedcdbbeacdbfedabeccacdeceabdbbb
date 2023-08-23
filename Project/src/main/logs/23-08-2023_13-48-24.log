@@ -1,0 +1,34 @@
+Aug 23, 2023 1:48:27 PM runner.Base openBrowser
+INFO: Browser Launched
+Aug 23, 2023 1:48:29 PM runner.Base openBrowser
+INFO: Browser Loaded the URL
+Aug 23, 2023 1:48:30 PM runner.Testcase1 productSearch
+INFO: Browser Navigated to the Register Page
+Aug 23, 2023 1:48:33 PM runner.Testcase1 afterMethod
+INFO: Browser closed
+Aug 23, 2023 1:48:34 PM runner.Base openBrowser
+INFO: Browser Launched
+Aug 23, 2023 1:48:36 PM runner.Base openBrowser
+INFO: Browser Loaded the URL
+Aug 23, 2023 1:48:39 PM runner.Testcase1 afterMethod
+INFO: Browser closed
+Aug 23, 2023 1:48:40 PM runner.Base openBrowser
+INFO: Browser Launched
+Aug 23, 2023 1:48:42 PM runner.Base openBrowser
+INFO: Browser Loaded the URL
+Aug 23, 2023 1:48:45 PM runner.Testcase1 afterMethod
+INFO: Browser closed
+Aug 23, 2023 1:48:46 PM runner.Base openBrowser
+INFO: Browser Launched
+Aug 23, 2023 1:48:48 PM runner.Base openBrowser
+INFO: Browser Loaded the URL
+Aug 23, 2023 1:48:51 PM runner.Testcase1 afterMethod
+INFO: Browser closed
+Aug 23, 2023 1:48:52 PM runner.Base openBrowser
+INFO: Browser Launched
+Aug 23, 2023 1:48:53 PM runner.Base openBrowser
+INFO: Browser Loaded the URL
+Aug 23, 2023 1:48:59 PM runner.Testcase1 addToCartTest
+INFO: cart button clicked
+Aug 23, 2023 1:49:05 PM runner.Testcase1 afterMethod
+INFO: Browser closed
