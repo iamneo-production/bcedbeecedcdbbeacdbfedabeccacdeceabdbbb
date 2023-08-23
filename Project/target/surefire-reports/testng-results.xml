@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-23T13:49:30 UTC" name="Surefire suite" finished-at="2023-08-23T13:50:14 UTC" duration-ms="44245">
+  <suite started-at="2023-08-23T13:56:17 UTC" name="Surefire suite" finished-at="2023-08-23T13:57:01 UTC" duration-ms="43710">
     <groups>
     </groups>
-    <test started-at="2023-08-23T13:49:30 UTC" name="Surefire test" finished-at="2023-08-23T13:50:14 UTC" duration-ms="44245">
+    <test started-at="2023-08-23T13:56:17 UTC" name="Surefire test" finished-at="2023-08-23T13:57:01 UTC" duration-ms="43710">
       <class name="runner.Testcase1">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:30 UTC" name="beforeMethod" finished-at="2023-08-23T13:49:33 UTC" duration-ms="3640" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:17 UTC" name="beforeMethod" finished-at="2023-08-23T13:56:21 UTC" duration-ms="3577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="productSearch()[pri:1, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:33 UTC" name="productSearch" finished-at="2023-08-23T13:49:38 UTC" duration-ms="4629" status="FAIL">
+        <test-method signature="productSearch()[pri:1, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:21 UTC" name="productSearch" finished-at="2023-08-23T13:56:25 UTC" duration-ms="4506" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -62,15 +62,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productSearch -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:38 UTC" name="afterMethod" finished-at="2023-08-23T13:49:38 UTC" duration-ms="428" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:25 UTC" name="afterMethod" finished-at="2023-08-23T13:56:26 UTC" duration-ms="342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:38 UTC" name="beforeMethod" finished-at="2023-08-23T13:49:41 UTC" duration-ms="2639" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:26 UTC" name="beforeMethod" finished-at="2023-08-23T13:56:28 UTC" duration-ms="2477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="multipleSearchTest(java.lang.String)[pri:2, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:41 UTC" name="multipleSearchTest" data-provider="SearchData" finished-at="2023-08-23T13:49:45 UTC" duration-ms="3622" status="FAIL">
+        <test-method signature="multipleSearchTest(java.lang.String)[pri:2, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:28 UTC" name="multipleSearchTest" data-provider="SearchData" finished-at="2023-08-23T13:56:32 UTC" duration-ms="3573" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -128,15 +128,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleSearchTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:45 UTC" name="afterMethod" finished-at="2023-08-23T13:49:45 UTC" duration-ms="203" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:32 UTC" name="afterMethod" finished-at="2023-08-23T13:56:32 UTC" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:45 UTC" name="beforeMethod" finished-at="2023-08-23T13:49:47 UTC" duration-ms="2434" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:32 UTC" name="beforeMethod" finished-at="2023-08-23T13:56:34 UTC" duration-ms="2500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="multipleSearchTest(java.lang.String)[pri:2, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:47 UTC" name="multipleSearchTest" data-provider="SearchData" finished-at="2023-08-23T13:49:51 UTC" duration-ms="4161" status="PASS">
+        <test-method signature="multipleSearchTest(java.lang.String)[pri:2, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:34 UTC" name="multipleSearchTest" data-provider="SearchData" finished-at="2023-08-23T13:56:39 UTC" duration-ms="4415" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,15 +147,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleSearchTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:51 UTC" name="afterMethod" finished-at="2023-08-23T13:49:52 UTC" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:39 UTC" name="afterMethod" finished-at="2023-08-23T13:56:39 UTC" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:52 UTC" name="beforeMethod" finished-at="2023-08-23T13:49:54 UTC" duration-ms="2537" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:39 UTC" name="beforeMethod" finished-at="2023-08-23T13:56:41 UTC" duration-ms="2475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="multipleSearchTest(java.lang.String)[pri:2, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:54 UTC" name="multipleSearchTest" data-provider="SearchData" finished-at="2023-08-23T13:49:58 UTC" duration-ms="3693" status="PASS">
+        <test-method signature="multipleSearchTest(java.lang.String)[pri:2, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:41 UTC" name="multipleSearchTest" data-provider="SearchData" finished-at="2023-08-23T13:56:45 UTC" duration-ms="3562" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,19 +166,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multipleSearchTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:58 UTC" name="afterMethod" finished-at="2023-08-23T13:49:58 UTC" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:45 UTC" name="afterMethod" finished-at="2023-08-23T13:56:45 UTC" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:49:58 UTC" name="beforeMethod" finished-at="2023-08-23T13:50:01 UTC" duration-ms="2505" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:45 UTC" name="beforeMethod" finished-at="2023-08-23T13:56:48 UTC" duration-ms="2575" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addToCartTest()[pri:3, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:50:01 UTC" name="addToCartTest" finished-at="2023-08-23T13:50:14 UTC" duration-ms="13077" status="PASS">
+        <test-method signature="addToCartTest()[pri:3, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:56:48 UTC" name="addToCartTest" finished-at="2023-08-23T13:57:01 UTC" duration-ms="12796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:50:14 UTC" name="afterMethod" finished-at="2023-08-23T13:50:14 UTC" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@26d9b808]" started-at="2023-08-23T13:57:01 UTC" name="afterMethod" finished-at="2023-08-23T13:57:01 UTC" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
